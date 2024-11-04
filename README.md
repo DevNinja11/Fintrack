@@ -40,13 +40,3 @@ As the backend lead, I implemented a modular, scalable architecture using **Java
 
 ## My Impact
 Through FinTrack, I enabled a secure, intuitive, and scalable platform that simplifies personal finance management. This contribution supports users in managing finances effectively, promotes financial wellness, and makes financial planning accessible.
-
----
-
-## Local Setup (Without Docker)
-1. **Install** Java 15, Maven, and PostgreSQL.
-2. **Create PostgreSQL User & Database**:
-   ```sql
-   CREATE USER fintrack WITH PASSWORD 'fintrack' SUPERUSER;
-   CREATE DATABASE fintrack;
-   GRANT ALL PRIVILEGES ON DATABASE fintrack TO fintrack;
